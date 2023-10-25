@@ -13,15 +13,11 @@ public static void main(String[] args) {
     System.out.print("Enter Name: ");
     String name = sc.nextLine();
     System.out.print("Enter basic salary: ");
-    float bs = sc.nextFloat();
-    float gs = bs + Salary.findHra(bs) + Salary.findDa(bs) + 2000;
-    float net_salary = gs - gs * 10 / 100;
+    float basic_salary = sc.nextFloat();
+    float gross_salary = basic_salary + Salary.findHra(basic_salary) + Salary.findDa(basic_salary) + 2000;
+    float net_salary = gross_salary - gross_salary * 10 / 100;
     System.out.println("Name: " + name);
     System.out.println("Gross Salary: " + net_salary);
     sc.close();
-
-
-
-
 }
 }

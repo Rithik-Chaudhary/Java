@@ -17,6 +17,8 @@ public class Marks {
         System.out.print("Enter English marks: ");
         int eng = sc.nextInt();
         int percent = (phy + bio + che + mat + eng) / 5;
+        System.out.print("Name: " + name);
+        System.out.print("Class: " + clas);
         System.out.print("Percentage: " + percent);
         sc.close();
 

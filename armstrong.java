@@ -11,7 +11,7 @@ public class armstrong {
     }
     static int power(int x, int y)
     {
-        int temp = 1;
+        int temp = 1;   
         while(y != 0){
             temp *= x;
             --y;
