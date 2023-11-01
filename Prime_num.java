@@ -1,3 +1,4 @@
+
 public class Prime_num {
 
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class Simple_Interest {
     static int findSI(int p, int r, int t){

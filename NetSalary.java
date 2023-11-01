@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class NetSalary {
     public static void main(String[] args) {

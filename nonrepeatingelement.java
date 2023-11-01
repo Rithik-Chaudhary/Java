@@ -1,3 +1,4 @@
+
 public class nonrepeatingelement {
     public static void main(String[] args) {
         int arr[] = {9, 4, 9, 6, 7, 4};

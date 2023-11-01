@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class armstrong {
     static int length(int x)

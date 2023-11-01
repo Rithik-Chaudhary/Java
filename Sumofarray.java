@@ -1,3 +1,4 @@
+
 public class Sumofarray {
     static int arr[] = { 1, 3, 5, 3, 7 };
 
